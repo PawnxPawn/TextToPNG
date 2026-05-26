@@ -1,0 +1,59 @@
+[gd_scene format=3 uid="uid://0iifaek3ljpi"]
+
+[ext_resource type="Script" uid="uid://b4yabj4wqx33v" path="res://System/TextToPNG/text_to_png.gd" id="1_cmdug"]
+
+[node name="Example" type="CanvasLayer" unique_id=906859240]
+
+[node name="TextureRect" type="ColorRect" parent="." unique_id=182619793]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.10508943, 8.445142e-05, 0.1654298, 1)
+
+[node name="TextToPng" type="Control" parent="." unique_id=1445182861]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 278.0
+offset_top = 141.0
+offset_right = 318.0
+offset_bottom = 181.0
+script = ExtResource("1_cmdug")
+font_size = 400
+metadata/_custom_type_script = "uid://b4yabj4wqx33v"
+
+[node name="TextToPng2" type="Control" parent="." unique_id=420137177]
+modulate = Color(0.7372549, 1, 1, 1)
+layout_mode = 3
+anchors_preset = 0
+offset_left = 954.0
+offset_top = 291.0
+offset_right = 994.0
+offset_bottom = 331.0
+rotation = 0.800103
+script = ExtResource("1_cmdug")
+font_size = 400
+metadata/_custom_type_script = "uid://b4yabj4wqx33v"
+
+[node name="TextToPng3" type="Control" parent="." unique_id=794789512]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 63.0
+offset_top = 478.99997
+offset_right = 103.0
+offset_bottom = 519.0
+rotation = -0.43046477
+script = ExtResource("1_cmdug")
+font_size = 400
+alignment = 1
+metadata/_custom_type_script = "uid://b4yabj4wqx33v"
+
+[node name="TextToPng4" type="Label" parent="." unique_id=1300995973]
+offset_left = 416.0
+offset_top = 373.0
+offset_right = 456.0
+offset_bottom = 396.0
+script = ExtResource("1_cmdug")
+font_size = 300
+metadata/_custom_type_script = "uid://b4yabj4wqx33v"
